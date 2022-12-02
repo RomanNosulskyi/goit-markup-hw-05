@@ -26,15 +26,15 @@
         </ul>
       </nav>
       <ul class="auth-nav">
-        <li class="item"><a href="mailto:info@devstidio.com" class="link">
-          <svg class="icon-mail" width="16" height="12" > 
-                    <use href="./images/symbol-defs.svg#icon-mail"></use> 
+        <li class="item"><a href="mailto:info@devstidio.com" class="contact-info link">
+          <svg class="contacts-icon icon-email" widht="16" height="12"> 
+                    <use href="./images/symbol-defs.svg#icon-email"></use> 
                 </svg> info@devstudio.com
               </a></li>
-        <li class="item"><a href="tel:+3809611111" class="link"><svg class="icon-phone" width="16" height="12" > 
+        <li class="item" ><a href="tel:+3809611111" class="contact-info link"><svg class="contacts-icon icon-phone" width="10" height="16" > 
                     <use href="./images/symbol-defs.svg#icon-telephone"></use> 
                 </svg>              
-                +380961111111
+                +38 096 111 11 11
               </a> </li>
         
       </ul>
@@ -50,7 +50,7 @@
           ЕФЕКТИВНІ РІШЕННЯ ДЛЯ <br />
           ВАШОГО БІЗНЕСУ
         </h1>
-        <button type="button" class="btn-primary">Замовити послугу</button>
+        <button type="button" class="btn-primary data-modal-open">Замовити послугу</button>
       </section>
       
       <!-- Професіональність-->
@@ -61,20 +61,19 @@
           <ul class="features-list list">
           <li class="items icon-antenna">
             <div class="about-icon">
-            <svg class="icon-fill"widht="70" height="70"  >
+            <svg class="icon-fill" widht="70" height="70"  >
                 <use href="./images/symbol-defs.svg#icon-clock"></use>
             </svg>
           </div>
-
             <h3 class="title title-features">УВАГА ДО ДЕТАЛЕЙ</h3>
             <p class="features-text">
-              Ідейні міркування, і навіть початок повсякденної роботи з
-              формування позиції.
+           Ідейні міркування, і навіть початок повсякденної роботи з
+           формування позиції.
             </p>
           </li>
           <li class="items icon-clock">
             <div class="about-icon">
-            <svg class="icon-fill"widht="70" height="70"  >
+            <svg class="icon-fill" widht="70" height="70"  >
                 <use href="./images/symbol-defs.svg#icon-antenna"></use>
             </svg>
           </div>
@@ -87,7 +86,7 @@
           </li>
           <li class="items">
             <div class="about-icon">
-            <svg class="icon-fill"widht="70" height="70"  >
+            <svg class="icon-fill" widht="70" height="70"  >
                 <use href="./images/symbol-defs.svg#icon-diagram"></use>
             </svg>
           </div>
@@ -97,7 +96,7 @@
           </li>
           <li class="items">
             <div class="about-icon">
-            <svg class="icon-fill"widht="70" height="70"  >
+            <svg class="icon-fill" widht="70" height="70"  >
                 <use href="./images/symbol-defs.svg#icon-astronaut"></use>
             </svg>
           </div>
@@ -116,14 +115,17 @@
         <div class="we-doing container">
           <h2 class="section-title">Чим ми займаємося</h2>
         <ul class="we-doing-list">
-          <li class="list item">
+          <li class="list item descrip">
             <img class="link" src="./images/box1.jpg" alt="printing" width="370" />
+            <div class="wedoing-description">ДЕСКТОПНІ ДОДАТКИ</div>
           </li>
-          <li class="list item">
+          <li class="list item descrip">
             <img class="link" src="./images/box2.jpg" alt="computer" width="370" />
+            <div class="wedoing-description">МОБІЛЬНІ ДОДАТКИ</div>
           </li>
-          <li class="list item">
+          <li class="list item descrip">
             <img class="link" src="./images/box3.jpg" alt="tablet" width="370" />
+            <div class="wedoing-description">ДИЗАЙНЕРСЬКІ РІШЕННЯ</div>
           </li>
         </ul>
         </div>
@@ -264,8 +266,8 @@
       </section>
       <section class="section clients">
                 <div class="container">
-                <h2 class="section-title">Постійні клієнти</h2>
-                <ul class="clients list" >
+                <h2 class="section-title3">Постійні клієнти</h2>
+                <ul class="client list" >
                     <li class="client-item"><a class="client-link" href="">
                         <svg class="icon-client" width="106" height="60" > 
                             <use href="./images/symbol-defs.svg#icon-logo1"></use> 
@@ -302,14 +304,13 @@
     
     <!-- Футер -->
     
-    <footer class="footer">
-      <div class="container footer-container">
-        <div class="container">
-          <a href="" class="logo" lang="en"
+    <footer class="page-footer">
+      <div class="container footer">
+        <address class="address">
+           <a href="" class="logo2" lang="en"
         ><span class="logo-web">Web</span> <span class="logo-web2">Studio</span> </a
       >
-      <address class="address">
-        <ul class="contact">
+          <ul class="contact">
           <li class="address-town link">
             <a
               href="https://goo.gl/maps/zHa8k17sHKYZzzac8"
@@ -323,37 +324,43 @@
           </li>
           <li class="address-tel link"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
-        </div>
-        <div class="container">
-          <div class="container">
-                <section class="addition">
-                    <h3 class="add">Приєднуйтесь</h3>
+        </address>
+        <section class="join-footer">
+          <h3 class="add">ПРИЄДНУЙТЕСЬ</h3>
                     <ul class="addition-list" >
-                        <li class="addition-item list"><a href="">
+                        <li class="addition-item list"><a href="" class="addition-icon">
                             <svg class="icon-add" width="20" height="20" > 
                                 <use href="./images/symbol-defs.svg#icon-instagram"></use> 
                             </svg> 
                         </a></li>
-                        <li class="addition-item list"><a href="">
+                        <li class="addition-item list"><a href="" class="addition-icon">
                             <svg class="icon-add" width="20" height="20" > 
                                 <use href="./images/symbol-defs.svg#icon-twitter"></use> 
                             </svg> 
                         </a></li>
-                        <li class="addition-item list"><a href="">
+                        <li class="addition-item list"><a href="" class="addition-icon">
                             <svg class="icon-add" width="20" height="20" > 
                                 <use href="./images/symbol-defs.svg#icon-facebook"></use> 
                             </svg> 
                         </a></li>
-                        <li class="addition-item list"><a href="">
+                        <li class="addition-item list"><a href="" class="addition-icon">
                             <svg class="icon-add" width="20" height="20" > 
                                 <use href="./images/symbol-defs.svg#icon-linkedin"></use> 
                             </svg> 
                         </a></li>
                     </ul>
-               </section>
-        </div>
-        </div>
+        </section>
       </div>
     </footer>
+    <div class="modal-backdrop is-hidden" data-modal>
+<div class="modal">
+	<button class="close-sign" data-modal-close>
+		<svg class="vector" width="11" height="11">
+			<use href="./images/symbol-defs.svg#icon-vector"></use>
+		</svg>
+	</button>
+</div>
+	 </div>
+	 <script src="./js/modal.js"></script>
   </body>
 </html>
