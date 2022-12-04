@@ -61,9 +61,16 @@ ul {
 .link {
   text-decoration: none;
   font-family: inherit;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 header {
   display: block;
+}
+.button {
+  text-transform: none;
 }
 .page-header {
   align-items: center;
@@ -503,7 +510,11 @@ p {
   line-height: 1.9;
   min-width: 216px;
 }
-
+.btn-primary:hover {
+  color: var(--accent-text-color);
+  background-color: #fff;
+  border-color: #fff;
+}
 .btn-secondary {
   font-weight: 500;
   font-size: 16px;
@@ -686,15 +697,7 @@ p {
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
 }
-/*.is-hidden {
-  visibility: hidden;
-  opacity: 0;
-  pointer-events: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.modal-backdrop {
+/*.modal-backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -718,4 +721,21 @@ p {
   border-radius: 4px;
   box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
     0px 2px 1px rgb(0 0 0 / 20%);
+}
+.modal .close-sign {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.vector {
+  fill: rgba(0, 0, 0, 1);
 }
