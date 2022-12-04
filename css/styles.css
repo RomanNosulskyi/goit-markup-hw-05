@@ -490,10 +490,6 @@ p {
   line-height: 1.19;
   margin-bottom: 20px;
 }
-.container.footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
 .btn {
   display: inline;
   margin-left: auto;
